@@ -18,5 +18,12 @@
         "psr-4": {
             "Arifuzzaman\\FindFish\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arifuzzaman\\FindFish\\FindFishServiceProvider"
+            ]
+        }
     }
 }
